@@ -1,0 +1,6 @@
+{
+    "openai": {
+        "organization": "[your organization id]",
+        "apiKey": "[your api key]"
+    }
+}
