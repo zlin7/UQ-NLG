@@ -397,6 +397,8 @@ class UQ_summ(UQ_computer):
     def get_uq(self, name='', num_gens=20, cache=None, **kwargs):
         if cache is None:
             cache = ptd.NOCACHE if name in {'generations|eigent', 'debug'} else ptd.CACHE
+        if self.path is None:
+            cache = ptd.NOCACHE
         individual_uq = None
         overall_uq = _compute_uq_cached(self, self.key, name, num_gens=num_gens, metric_kwargs=kwargs, cache=cache)
         if overall_uq is None:
