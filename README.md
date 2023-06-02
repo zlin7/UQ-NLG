@@ -1,4 +1,5 @@
 
+Code for "Generating with Confidence: Uncertainty Quantification for Black-box Large Language Models" [arxiv](https://arxiv.org/abs/2305.19187).
 
 # Quick Start
 We provided a simple evaluation in `notebook/demo.ipynb` using 500 samples and the corresponding responses.
