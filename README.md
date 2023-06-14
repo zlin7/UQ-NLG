@@ -19,5 +19,5 @@ Update `GEN_PATHS` in `_settings.py` for next steps.
 
 ## Run UQ experiments
 You can run `dataeval/load.py` to cache down results first.
-I use [persist_to_disk ](https://pypi.org/project/persist-to-disk/) to cache experiment results (i.e. those `@ptd.persistf` decorators).
+I use [persist_to_disk ](https://pypi.org/project/persist-to-disk/) to cache experiment results (i.e. those `@ptd.persistf` decorators and `ptd.manual_cache` calls).
 Then, please refer to `notebook/main.ipynb` for an example.
