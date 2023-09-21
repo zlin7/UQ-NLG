@@ -44,6 +44,9 @@ def _save_dataset():
                     additional_answers_list.append(additional_answers[str(i)][question_index]['input_text'])
 
                 dataset['additional_answers'].append(additional_answers_list)
+                story = story + ' Q: ' + question['input_text'] + ' A: ' + answers[question_index]['input_text']
+                if not story[-1] == '.':
+                    story = story + '.'
 
         dataset_df = pd.DataFrame.from_dict(dataset)
 
