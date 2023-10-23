@@ -21,3 +21,6 @@ Update `GEN_PATHS` in `_settings.py` for next steps.
 You can run `dataeval/load.py` to cache down results first.
 I use [persist_to_disk ](https://pypi.org/project/persist-to-disk/) to cache experiment results (i.e. those `@ptd.persistf` decorators and `ptd.manual_cache` calls).
 Then, please refer to `notebook/main.ipynb` for an example.
+
+## Reminder
+As many may have noticed, `gpt-3.5-turbo`'s performnace dropped a lot recently. *All experiments in this manuscript were carried out (and could be replicated) using `gpt-3.5-turbo-0301` instead of the latest version.*
