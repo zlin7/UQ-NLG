@@ -17,11 +17,11 @@ For `gpt-3.5-turbo` experiments, please update `keys.json` with your API keys fi
 
 Update `GEN_PATHS` in `_settings.py` for next steps.
 
-(You could find the exact generatoins we used in our paper [here](https://uillinoisedu-my.sharepoint.com/personal/zhenlin4_illinois_edu/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fzhenlin4%5Fillinois%5Fedu%2FDocuments%2Fshare%2FNLG%2DUQ%2Foutput&ga=1).)
+(You could find the exact generatoins we used in our paper [here](https://drive.google.com/drive/folders/1Es9_0f7Xka-Iz7MNS6zMhIqB0QWlCnuB?usp=drive_link) in "output".)
 
 ## Run UQ Experiments
 You can run `dataeval/load.py` to cache down results first.
-(We have uploaded the cache in `persist_to_disk` to this [link](https://uillinoisedu-my.sharepoint.com/:f:/g/personal/zhenlin4_illinois_edu/EuJ8pGeZHMRMi3PWLKUIQo4BzUE1AuB3Ii9XVvvPaqzgMA?e=SHmSH8).
+(We have uploaded the cache in `persist_to_disk` to this [link](https://drive.google.com/drive/folders/1Es9_0f7Xka-Iz7MNS6zMhIqB0QWlCnuB?usp=drive_link) in "persist_to_disk".
 Once you download the cache, you should be able to directly `run dataeval/load.py` without missing the cache.)
 I use [persist_to_disk ](https://pypi.org/project/persist-to-disk/) to cache experiment results (i.e. those `@ptd.persistf` decorators and `ptd.manual_cache` calls).
 
