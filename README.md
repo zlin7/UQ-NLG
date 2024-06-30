@@ -1,5 +1,22 @@
 
-Code for "Generating with Confidence: Uncertainty Quantification for Black-box Large Language Models" [arxiv](https://arxiv.org/abs/2305.19187).
+Code for TMLR paper "Generating with Confidence: Uncertainty Quantification for Black-box Large Language Models" [arxiv](https://arxiv.org/abs/2305.19187).
+
+```
+@article{
+lin2024generating,
+title={Generating with Confidence: Uncertainty Quantification for Black-box Large Language Models},
+author={Zhen Lin and Shubhendu Trivedi and Jimeng Sun},
+journal={Transactions on Machine Learning Research},
+issn={2835-8856},
+year={2024},
+url={https://openreview.net/forum?id=DWkJCSxKU5},
+note={}
+}
+```
+
+**Update**: Our [code](https://github.com/zlin7/ContextSL) for a new preprint improves the generation/data processing pipeline in this repository (as well as other things like support for greedy decoding and new baselines). 
+Please check it out!
+
 
 # Quick Start
 We provided a simple evaluation in `notebook/demo.ipynb` using 500 samples and the corresponding responses.
@@ -30,3 +47,5 @@ Then, please refer to `notebook/main.ipynb` for an example.
 
 ## Reminder
 As many may have noticed, `gpt-3.5-turbo`'s performnace dropped a lot recently. *All experiments in this manuscript were carried out (and could be replicated) using `gpt-3.5-turbo-0301` instead of the latest version.*
+
+
